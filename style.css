@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg,#443a3a, #1b1818
+    );
+    color: rgb(34, 31, 31);
+    font-family: "poppins", sans-serif;
+    min-height: 100vh;
+}
+.content{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.gradient-text{
+    background-color: red;
+    background-image: linear-gradient(120deg,#5b5757,#fff
+    );
+    background-repeat: repeat;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color : transparent;
+}
+
+.upper-photo img{
+    max-height: 300px;
+    min-width: 100%;
+}
+
+/* 
+.content button:hover{
+    background-color: rgb(34, 31, 31);    
+    color:#fff;
+    border: 1px solid #fff;
+    font-size: 28px;
+} */
+
+
+
+
+#upload-btn {
+    /* Your default button styles */
+    border: none;
+    padding: 10px 40px;
+    font-size: x-large;
+    margin-top: 30px;
+    color: rgb(34, 31, 31);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.1s, color 0.1s; /* Smooth transition */
+  
+    /* Make the anchor tag fill the button */
+    /* display: block; */
+  }
+  
+  #upload-btn:hover {
+    /* Change background color and text color on hover */
+    background-color: rgb(34, 31, 31);    
+    color:#fff;
+    border: 1px solid #fff;
+    font-size: 28px;
+  }
+  
+  #upload-btn a {
+    /* Adjust anchor tag styles */
+    color: inherit;
+    text-decoration: none;
+  }
+  
+
+
+
+
+
+footer{
+    position: fixed;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+footer p{
+    text-align: center;
+
+}
